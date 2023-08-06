@@ -242,12 +242,21 @@ a:link {
     max-width: 100%;
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
 }
 
-.header-area .logo-img {
+.header-area .logo-img1 {
+    width: 100px;
+    height: 100px;
+    padding-right: 15px;
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-area .logo-img2 {
     width: 100px;
     height: 100px;
     padding-right: 15px;
